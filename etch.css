@@ -1,0 +1,58 @@
+*{ 
+    color: grey;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    width: 400px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.divRow{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(255, 0, 98);
+    border: 0px solid rgb(167, 216, 33);
+    color: rgb(0, 68, 128);    
+    padding: 0;
+    
+    
+}
+
+.divCol{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+    border: 1px solid black;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    min-width: 10px;
+    min-height: 10px;
+    padding: 0;
+    
+}
+
+.divHover{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(255, 0, 47);
+    border: 1px solid black;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    min-width: 10px;
+    min-height: 10px;
+    
+    padding: 0;
+    
+}
